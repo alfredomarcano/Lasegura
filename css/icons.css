@@ -1,0 +1,33 @@
+.seg-fa{
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+
+.seg-fac{
+    background: url('../imagenes/icons/facebook.svg') no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+.seg-inst{
+    background: url('../imagenes/icons/instagram.svg') no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+.seg-twit{
+    background: url('../imagenes/icons/twitter.svg') no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+.seg-whats{
+    background: url('../imagenes/icons/whatsapp.svg') no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+@media screen and (max-width:650px){
+    .seg-fa{ width: 36px; height: 36px;}
+}
